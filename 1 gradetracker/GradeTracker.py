@@ -9,7 +9,7 @@ See https://www.geeksforgeeks.org/python-docstrings/
 import statistics as s
 
 #add constants next
-admins = {'Faculty1':'ABC123','Faculty2':'ABC123','Dominic':'Thomas'}
+admins = {'Faculty1':'ABC123','Faculty2':'ABC123','Brooke':'Yearta'}
 
 # Like the admins above is a dictionary but of students.
 # Dictionaries use curly brackets with colons to associate keys with values.
@@ -93,7 +93,7 @@ def main():
     else:
         print('Valid option not selected.') #need to cause it to reprompt
 
-login = input('Faculty account name: ')
+login = input('User: ')
 
 if login in admins:
     password = input('Password: ')
